@@ -137,6 +137,10 @@ button {
 }
 
 @media screen and (min-width: 667px) {
+  .image-container-mobile-version {
+    display: none;
+  }
+
   body {
     display: flex;
     flex-direction: row;
@@ -196,18 +200,25 @@ button {
     width: 80px;
   }
 
-  .image-container-mobile-version {
-    display: none;
+  .error-message {
+    margin-top: 10px;
+  }
+
+  .error-message p {
+    align-items: flex-start;
+    display: inline;
+    margin-left: 160px;
+    max-width: 445px;
   }
 
   .image-container-desktop-version {
     display: inline;
-    width: 50%;
     height: 100%;
+    width: 50%;
   }
 
   .image-container-desktop-version img {
-    width: 100%;
     height: 100%;
+    width: 100%;
   }
 }
